@@ -6,13 +6,9 @@ Permite realizar operaciones CRUD (Crear, Leer, Actualizar y Eliminar) sobre los
 
 El enfoque principal de esta implementación es **demostrar una arquitectura limpia, mantenible y escalable**, aplicando buenas prácticas de desarrollo, principios SOLID y separación de capas.
 
-## Inicialización de la base de datos PostgreSQL
-
-Antes de levantar la aplicación, es necesario iniciar un contenedor de **PostgreSQL** que cree la base de datos y ejecute el script de inicialización (`SCHEMA-CRUD.sql`).
+## Puesta en marcha con Docker Compose
 
 > ⚠️ **Requisito:** este comando debe ejecutarse en un entorno **Linux** o **WSL** (Windows Subsystem for Linux).  
-
-## Puesta en marcha con Docker Compose
 
 Desde la raíz del proyecto ejecuta:
 
